@@ -1,0 +1,10 @@
+<view class="container">
+      <button type="warn" size="mini"  class="downloadExample" bindtap="openFile" wx:if="{{fileList.length}}"> 打开文件</button>
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" wx:for="{{fileList}}">
+          <radio value="{{index}}" />{{item}}
+        </label>
+      </radio-group>
+      <text class="emptyFile" wx:if="{{!fileList.length}}">文件列表为空</text>
+
+</view>

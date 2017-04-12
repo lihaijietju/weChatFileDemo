@@ -1,0 +1,5 @@
+<view class="container img-list">
+      <text wx:if="{{imgSrcs.length}}">{{empty}}</text>
+      <image class="imgItem" bindtap="lookImg" data-src="{{item}}" wx:for="{{imgSrcs}}" wx:key="*this" mode="scaleToFill" src="{{item}}"></image>
+      <text class="emptyImage" wx:if="{{!imgSrcs.length}}">图片列表为空</text>
+</view>

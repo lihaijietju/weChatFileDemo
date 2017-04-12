@@ -1,0 +1,27 @@
+.container{
+    padding-top:50rpx;
+}
+.downloadExample{
+    position:absolute;
+    left:10px;
+}
+.lookFileList{
+    position:absolute;
+    right:10px;
+}
+
+.fileUrl{
+    margin-top:70px;
+}
+.downloadImgUrl{
+    border:1px solid #cfdadd;
+    border-radius:5px;
+    background:#fff;
+    width:100%;
+    height:30px;
+    line-height:30px;
+    margin-top:40rpx;
+}
+.downloadFile{
+    margin-top:20px;
+}

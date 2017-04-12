@@ -1,0 +1,8 @@
+<view class="container">
+    <view class="userTitle">
+        <text class="user-title">{{title}}</text>
+    </view>
+    <view class="uploadImg">
+        <button type="default" size="mini"  bindtap="uploadImg"> 选择图片</button>
+    </view>
+</view>

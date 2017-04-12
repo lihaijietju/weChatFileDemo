@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/uploadImg/uploadImg",
+    "pages/imageList/imageList",
+    "pages/lookImg/lookImg",
+    "pages/downloadFile/downloadFile",
+    "pages/fileList/fileList"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTitleText": "欢迎李海杰",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#eee"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/home2.png",
+        "selectedIconPath":"icon/home1.png"
+      },
+      {
+        "pagePath": "pages/uploadImg/uploadImg",
+        "text": "上传图片",
+        "iconPath": "icon/upload2.png",
+        "selectedIconPath":"icon/upload1.png"
+      },
+      {
+        "pagePath": "pages/imageList/imageList",
+        "text": "图片列表",
+        "iconPath": "icon/image2.png",
+        "selectedIconPath":"icon/image1.png"
+      },
+      {
+        "pagePath": "pages/downloadFile/downloadFile",
+        "text": "下载文件",
+        "iconPath": "icon/download2.png",
+        "selectedIconPath":"icon/download1.png"
+      }
+    ],
+    "backgroundColor": "#dddddd",
+    "borderStyle": "white",
+    "color": "#a9b7b7",
+    "selectedColor":"#11cd6e"
+  }
+}

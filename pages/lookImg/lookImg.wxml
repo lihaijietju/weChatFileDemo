@@ -1,0 +1,7 @@
+<view class="container img-list">
+    <image class="imgItem" style="width: 100%; height:200px" mode="scaleToFill" src="{{imgSrc}}"></image>
+    <text class="imgLabel">width:   {{width}}</text>
+    <text class="imgLabel">height:   {{height}}</text>
+    <text class="imgLabel">size:   {{size}}kb</text>
+    <text class="imgLabel">createdTime:   {{time}}</text>
+</view>

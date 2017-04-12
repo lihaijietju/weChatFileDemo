@@ -1,0 +1,12 @@
+<view class="container">
+    <view>
+        <button type="warn" size="mini"  class="downloadExample" bindtap="downloadExample"> 下载示例</button>
+        <button type="primary" size="mini"  class="lookFileList" bindtap="lookFileList"> 查看文件列表</button>
+    </view>
+    <view class="fileUrl">
+        <input type="text" class="downloadImgUrl" bindblur="setUrl" placeholder="请输入下载文件的url" focus/>
+    </view>
+    <view>
+        <button type="default" class="downloadFile" size="mini" bindtap="downloadFile"> 下载文件</button>
+    </view>
+</view>
